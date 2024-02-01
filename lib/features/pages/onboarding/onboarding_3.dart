@@ -1,0 +1,30 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+
+class PageThree extends StatelessWidget {
+  const PageThree({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Container(
+        width: 500,
+        height: 600,
+        child: Center(
+          child: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(
+                  top: 83,
+                  left: 16,
+                  right: 16,
+                ),
+                child: Image.asset("assets/images/onboarding_3.png"),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
